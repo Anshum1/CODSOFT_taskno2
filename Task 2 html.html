@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="prog.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">TRAVELSCAPE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About Us</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="img2.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A TRUE GIFT OF NATURE!</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <H1>Upcoming Events</H1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img3.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Explore the himalayan everglades,<br> with the most beautiful scenes one could ever wish to see!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img6.jpeg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Walk in to the beautiful night skies!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p> 
+                Embark on a journey of discovery with our unparalleled travel experience! Immerse yourself in the vibrant tapestry of cultures, savor the flavors of exotic cuisines, and create memories that will last a lifetime. From breathtaking landscapes to bustling cityscapes, our carefully curated destinations offer the perfect blend of adventure and relaxation.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tours And Desitnation</h1>
+                <div class="line"></div>
+                <P>Excitement is on the horizon with our upcoming tours and destinations! Prepare to be captivated by the allure of diverse landscapes and rich cultural experiences. From the sun-kissed beaches of Bali to the majestic peaks of the Swiss Alps, our upcoming tours promise a symphony of adventure and relaxation.</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img100 - Copy.jpeg" alt="">
+                    <img src="imag8.jpeg" alt="">
+                    <img src="img9.jpeg" alt="">
+                    <img src="img12.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Bengaluru Avenue,White Field 500560, Near apple istore.</p>
+        <p>Copyright 	&#169; TRAVELSCAPE LTD.</p>
+
+    </section>
+
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+
+        }) 
+    </script>
+
+</body>
+</html>
